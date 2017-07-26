@@ -5,14 +5,14 @@ Catalogue application written in [Go] that provides catalogue/product informatio
 
 
 ## Step1: 
-git clone git@github.com:huawei-microservice-demo/catalogue.git
+git clone https://github.com/huawei-microservice-demo/catalogue.git
 
 ## Step2:
 cd catalogue
 
 ## Step4: Build the docker image
 docker build -t [docker-image-name:version-tag] .
-put the docker file in same folder and execute the above command.
+
 
 ## Step5: Tag the image with service stage
 docker tag [docker-image-name:version-tag]  registry.cn-north-1.hwclouds.com/hwcse/[docker-image-name:version-tag]
